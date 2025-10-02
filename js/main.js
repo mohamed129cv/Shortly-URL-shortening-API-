@@ -16,7 +16,7 @@ function handleResize() {
   }
 }
 handleResize();
-document.addEventListener("resize", handleResize);
+window.addEventListener("resize", handleResize);
 navIcon.addEventListener("click", () => {
   navIcon.classList.toggle("active");
   menu.classList.toggle("active");
